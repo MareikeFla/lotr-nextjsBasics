@@ -1,7 +1,7 @@
 import { volumes } from "@/resources/lib/data";
 import Image from "next/image";
 import Link from "next/link";
-import { Buttons } from "./Buttons";
+import { Buttons } from "../Components/Buttons";
 
 export default function renderVolumeInfo(volume, cover) {
   const volumeInfo = volumes.find(({ slug }) => slug === volume);
